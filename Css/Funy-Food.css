@@ -1,0 +1,167 @@
+/* my rulz */
+body
+{
+    
+}
+
+/*Start header */
+header .title
+{
+    text-align: center;
+    padding: 10%
+}
+
+header .title p
+{
+    display: inline;
+    margin: 30px 0px;
+    background-color: #fff;
+    padding: 2%
+}
+
+header .title p:before
+{
+    border-top: 3px solid #5ae195;
+    content: "";
+    position: absolute;
+    top: 17%;
+    left: 30%;
+    width: 40%;
+    z-index: -1
+}
+
+header .background
+{
+    background-image: url(../Images/0.jpg);
+    background-size: cover;
+    height: 365px
+}
+
+header .background .obacity{background-color: rgba(92,92,92,.4); height: 100%}
+
+header .background .obacity .carousel {padding: 202px 0 0}
+
+header .background .obacity .carousel-caption {position: static}
+
+header .background .obacity .carousel-caption p{padding:0 0 20px}
+/*End header */
+
+/*Start 1st s */
+
+.first{margin: 5% 0}
+
+.first .row div img
+{
+    width: 98%;
+    height: 196px;
+    border: 2px solid #5ae195;
+    border-radius: 4px;
+    cursor: pointer
+}
+
+/*End 1st s */
+
+/*Start Main */
+
+.row{margin: 0}
+
+main,aside{margin: 30px 0}
+
+/*Start 2nd and 3rd s */
+
+.second,.third{margin-bottom: 80px;border: 2px solid #ddd }
+
+.second .content,.third .content{margin: 5px}
+
+.second .content img,.third .content img{width: 100%; height: auto}
+
+.second .content .row,.third .content .row{text-align: center}
+
+.second .content .row button,.third .content .row button
+{
+    background: none;
+    border: 2px solid #5ae195;
+    color: #5ae195;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    cursor: pointer
+}
+
+.second .content h2,.third .content h2{text-align: center}
+
+.second .content p,.third .content p{margin: 10px 10px 50px}
+
+/*End 2nd and 3rd s */
+
+
+/*End Main */
+
+
+/*Start Aside */
+
+.about,.subscribe{border: 2px solid #ddd;text-align: center; margin-bottom: 60px}
+
+.about{height: 640px}
+
+.about h3:before
+{
+    border-top: 1px solid #ddd;
+    content: "";
+    position: absolute;
+    top: 4.5%;
+    left: 9%;
+    width: 82%;
+    z-index: -1
+}
+
+.about h3{margin: 30px 0px 30px 75px;background-color: #fff;width: 50%}
+
+.about p{margin: 30px 10px}
+
+.about img{width: 96%;max-height: 50%; border-radius: 4px;cursor: pointer}
+
+.about a{margin-bottom: 30px;color: #5ae195}
+
+.subscribe h3:before
+{
+    border-top: 1px solid #ddd;
+    content: "";
+    position: absolute;
+    top: 70.5%;
+    left: 9%;
+    width: 82%;
+    z-index: -1
+}
+
+.subscribe h3{margin: 30px 0px 30px 75px;background-color: #fff;width: 50%}
+
+.subscribe{height: 300px}
+
+.subscribe ul {margin: 30px 0}
+
+.subscribe ul li{display: inline; margin: 2px 5px}
+
+.subscribe ul li a{color: #5ae195}
+
+.subscribe form{margin: 10px}
+
+.subscribe form input{margin-bottom: 5px}
+
+.subscribe form .button{color:#fff ;background-color:#5ae195 }
+
+/*End Aside */
+
+/*Start footer */
+
+footer{background-color: #333;color: #fff}
+
+footer p{float: none; margin: 10px 0}
+
+footer ul{float: none;margin: 10px 0}
+
+footer ul li{display: inline; margin: 5px}
+
+footer ul li a{color: #fff}
+/*End footer */
+
